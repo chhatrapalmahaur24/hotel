@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+.clr {
+  clear: both;
+}
+.container {
+  overflow: auto;
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1100px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+#navbar {
+  background: black;
+  overflow: auto;
+  color: #ffffff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  padding: 20px;
+  text-align: center;
+  display: block;
+}
+
+#navbar ul li a:hover,
+#current {
+  background: rgb(56, 54, 54);
+  color: orange;
+}
+
+#lobby {
+  background: url("../images/pexels-gustavo-rodrigues-1755288.jpg") no-repeat
+    center center/cover;
+  height: 100vh;
+}
+
+.lobby-content {
+  padding-top: 170px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.lobby-content p {
+  padding-top: 30px;
+  line-height: 1.7em;
+  padding-bottom: 30px;
+}
+
+.highlight {
+  color: orange;
+}
+
+.btn {
+  background: black;
+  padding: 13px 20px;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: orange;
+  background-color: grey;
+}
+
+.highlight1 {
+  color: orange;
+}
+
+#home-info {
+  text-align: center;
+}
+
+.btn1 a {
+  background: white;
+  color: black;
+  padding: 10px 5px;
+}
+.btn1 {
+  margin-top: 20px;
+}
+
+.btn1 a:hover {
+  background-color: grey;
+  color: orange;
+}
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .home-img {
+  width: 50%;
+  float: left;
+  background-image: url("../images/photo-1.jpg");
+  min-height: 100%;
+}
+
+#home-info .home-content {
+  width: 50%;
+  float: right;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+#box-2 {
+  background-color: orange;
+  color: black;
+}
+
+#about-info h1 {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px;
+  background-color: grey;
+
+  border-radius: 2px;
+}
+
+.highlight {
+  color: orange;
+}
+
+#about-info .left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  padding: 0px 10px;
+  text-align: justify;
+  background-color: goldenrod;
+  border-radius: 5px;
+  color: black;
+}
+
+#about-info .right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  padding: 0px 10px;
+  text-align: justify;
+  background: black;
+  border-radius: 5px;
+  color: rgb(255, 166, 0);
+}
+
+#about-info .right:focus {
+  opacity: 0.9;
+}
+#about-info h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+#testimonials {
+  height: 100%;
+  background: url("../images/pexels-chan-walrus-941861.jpg") no-repeat center
+    center/cover;
+  padding: 40px;
+}
+
+#testimonials h1 {
+  color: orange;
+  text-align: center;
+}
+
+#testimonials .testimonial-1 {
+  padding: 40px;
+  margin: 20px;
+  background: #f7c08a;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+#testimonials .testimonial-1 img {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+#testimonials .testimonial-2 {
+  background: #f7c08a;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+#testimonials .testimonial-2 img {
+  width: 100px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
+#contact h2 {
+  padding: 20px 0px;
+  font-size: 40px;
+}
+
+.contact-highlight {
+  color: orange;
+}
+
+.form-info label {
+  display: block;
+  width: 100%;
+  margin: 5px;
+}
+
+.form-info input,
+.form-info textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+.form-info textarea {
+  height: 150px;
+}
+
+.form-info input:focus,
+.form-info textarea:focus {
+  outline: none;
+  border-color: orange;
+}
+
+.btn-2 {
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.btn-2:hover {
+  background: grey;
+  color: orange;
+}
+
+.bottom {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  height: 300px;
+}
+
+#phone {
+  color: orange;
+}
+
+#contact-bottom i {
+  padding-bottom: 20px;
+}
+#footer {
+  text-align: center;
+  background: rgb(56, 54, 54);
+  padding: 20px;
+  color: orange;
+}

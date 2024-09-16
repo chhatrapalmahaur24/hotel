@@ -1,0 +1,55 @@
+#navbar ul {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+}
+
+#navbar h1 {
+  float: none;
+  text-align: center;
+}
+
+.lobby-content {
+  padding-top: 20px;
+}
+
+#lobby {
+  height: 70vh;
+}
+
+#home-info .home-img {
+  display: none;
+}
+
+#home-info .home-content {
+  width: 100%;
+  float: right;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+.bottom {
+  float: none;
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: #ffffff;
+  width: 100%;
+  border-bottom: grey dotted 1px;
+}
